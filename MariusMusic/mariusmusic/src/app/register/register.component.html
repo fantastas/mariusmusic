@@ -1,0 +1,11 @@
+<button (click)="toggleShow()"class="regbutt" [ngClass]="{'test': newColor}" mat-stroked-button >Register</button>
+
+<div *ngIf="isShown" class="row container-fluid" id="divshow">
+    <form>
+        <input placeholder="Email">
+        <input input type="password"placeholder="Password">
+        <input input type="password"placeholder="Confirm password">
+    </form>
+    <button class="submit"mat-stroked-button >Submit</button>
+
+</div>

@@ -1,0 +1,16 @@
+input{
+    margin: 0.2rem;
+    height: 2rem;;
+    width: 25%;
+}
+
+.logbutt{
+    width: 30%;
+    margin-bottom: 2rem;
+    color: white;
+}
+.submit{
+    color: white;
+    width: 25%;
+}
+

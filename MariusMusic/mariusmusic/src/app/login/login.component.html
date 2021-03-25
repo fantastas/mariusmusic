@@ -1,0 +1,12 @@
+<button (click)="toggleShow()" class="logbutt"mat-stroked-button >Login</button>
+
+
+<div *ngIf="isShown" class="row container-fluid" id="divshow">
+    <form>
+        <input placeholder="EMAIL OR USERNAME">
+       
+        <input input type="password"placeholder="PASSWORD">
+      </form>
+<button class="submit"mat-stroked-button >Submit</button>
+
+</div>

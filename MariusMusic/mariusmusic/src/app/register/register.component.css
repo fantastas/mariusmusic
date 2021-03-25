@@ -1,0 +1,19 @@
+input{
+    margin: 0.2rem;
+    height: 2rem;;
+    width: 25%;
+    display: inline-block;
+}
+
+.regbutt{
+    width: 30%;
+    margin-bottom: 2rem;
+    color: white;
+}
+.submit{
+    color: white;
+}
+
+.test {
+    background-color: black;
+  }

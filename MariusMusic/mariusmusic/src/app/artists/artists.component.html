@@ -1,0 +1,13 @@
+<div class="mat-display-3">
+    {{ getTitle() }}
+</div>
+<div class="artists">
+<mat-selection-list #shoes [multiple]="false">
+    <mat-list-option  *ngFor="let artist of artists" [value]="artist">
+      {{ artist }}
+    </mat-list-option>
+  </mat-selection-list>
+</div>  
+  <!-- <p>
+    Artist selected: {{shoes.selectedOptions.selected[0]?.value}}
+  </p> -->
